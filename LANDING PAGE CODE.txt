@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glowing Skin - Achieve Radiant Skin</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background: #f8f9fa;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(135deg, #ff7eb3, #ff758c);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .hero img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .hero-content {
+            flex: 1;
+            text-align: left;
+        }
+
+        .hero-content h2 {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+            color: #ff758c;
+        }
+
+        .hero-content p {
+            font-size: 1rem;
+            margin-bottom: 20px;
+        }
+
+        .email-signup {
+            margin-top: 20px;
+        }
+
+        .email-signup input {
+            padding: 10px;
+            font-size: 1rem;
+            width: 70%;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+
+        .email-signup button {
+            padding: 10px 20px;
+            background: #ff758c;
+            color: white;
+            font-size: 1rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .email-signup button:hover {
+            background: #ff5270;
+        }
+
+        section {
+            margin-top: 40px;
+        }
+
+        section h3 {
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+        }
+
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .feature-item {
+            flex: 1 1 calc(33.333% - 20px);
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .feature-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .feature-item h4 {
+            margin-bottom: 10px;
+            color: #ff758c;
+        }
+
+        .cta {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .cta img {
+            width: 50%;
+            margin: 20px 0;
+            border-radius: 10px;
+        }
+
+        .cta button {
+            padding: 15px 30px;
+            background: #ff758c;
+            color: white;
+            font-size: 1.2rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .cta button:hover {
+            background: #ff5270;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+
+        footer p {
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>ELYSIUM</h1>
+        <p>Experience the radiance you deserve with our nourishing body cream.</p>
+    </header>
+
+    <!-- Hero Section -->
+    <div class="container">
+        <div class="hero">
+            <div class="hero-content">
+                <h2>Transform Your Skin</h2>
+                <p>Our body cream is specially formulated with natural ingredients to hydrate, nourish, and enhance your skin's natural glow. Perfect for all skin types.</p>
+                <div class="email-signup">
+                    <input type="email" placeholder="Enter your email to get updates">
+                    <button>Subscribe</button>
+                </div>
+            </div>
+            <img src="your-elysium-image.jpg" alt="Elysium Body Cream">
+        </div>
+
+        <!-- Features Section -->
+        <section>
+            <h3>Why Choose ELYSIUM?</h3>
+            <div class="features">
+                <div class="feature-item">
+                    <img src="your-elysium-image.jpg" alt="Hydration Feature">
+                    <h4>Hydration</h4>
+                    <p>Deeply moisturizes and keeps your skin hydrated all day long.</p>
+                </div>
+                <div class="feature-item">
+                    <img src="your-elysium-image.jpg" alt="Natural Ingredients">
+                    <h4>Natural Ingredients</h4>
+                    <p>Infused with aloe vera, shea butter, and vitamin E for ultimate care.</p>
+                </div>
+                <div class="feature-item">
+                    <img src="your-elysium-image.jpg" alt="Dermatologist Approved">
+                    <h4>Dermatologist Approved</h4>
+                    <p>Tested and recommended by leading skincare professionals.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call-to-Action Section -->
+        <section class="cta">
+            <h3>Ready to Glow?</h3>
+            <img src="your-elysium-image.jpg" alt="Elysium Product Highlight">
+            <button>Shop Now</button>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 ELYSIUM. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+
